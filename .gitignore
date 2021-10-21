@@ -1,0 +1,22 @@
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.env
+.venv
+*.egg-info
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Local files
+cdk_commands
+git_master_to_main.bat
+gitclean.bat
+gitpush.bat
+.autogit
+/tmp
+/tmp2
+/src/data_generator/tmp
+/src/data_generator/aws_creds.py

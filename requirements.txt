@@ -1,0 +1,12 @@
+-e .
+aws-cdk.aws-iam==1.*
+aws-cdk.aws-lambda==1.*
+aws-cdk.aws-codebuild==1.*
+aws-cdk.pipelines==1.*
+aws-cdk.aws_iot==1.*
+aws_cdk.aws_kinesisfirehose_destinations==1.*
+aws_cdk.aws_lambda_event_sources==1.*
+aws_cdk.aws_glue==1.*
+aws_cdk.aws_elasticache==1.*
+aws_cdk.aws_s3_deployment==1.*
+aws_cdk.aws_quicksight==1.*

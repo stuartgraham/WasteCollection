@@ -666,7 +666,7 @@ class WasteCollectionStack(cdk.Stack):
                 truck_excess_load_alarm = truck_metric.create_alarm(self, f"WasteCollectionCWAlarm_{truck_id}",
                     alarm_name = f"WasteCollectionTruckAlarm_{truck_id}",
                     threshold = 500,
-                    evaluation_periods = 2,
+                    evaluation_periods = 1,
                     period = cdk.Duration.days(1),
                     statistic = "sum"
                 )

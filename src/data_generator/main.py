@@ -83,8 +83,8 @@ class BinTruck:
 @dataclass
 class TimeSlot:
     time_slot : datetime = datetime(2018, 12, 31, 0, 0)
-    work_day_start = time(hour=0, minute=1)
-    work_day_end = time(hour=23, minute=59)
+    work_day_start = time(hour=7, minute=0)
+    work_day_end = time(hour=16, minute=30)
 
     def increment_time_slot(self):
         if self.work_day_start <= self.time_slot.time() < self.work_day_end:

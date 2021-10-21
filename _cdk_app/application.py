@@ -658,7 +658,7 @@ class WasteCollectionStack(cdk.Stack):
                 unique_id += 1
                 truck_id = city[0:3] + str(unique_id).zfill(4)
 
-                truck_metric = cloudwatch.Metric(self, f"WasteCollectionCWMetric_{truck_id}",
+                truck_metric = cloudwatch.Metric(
                     metric_name = f"{truck_id}",
                     namespace = "WasteCollectionTrucks"
                 )

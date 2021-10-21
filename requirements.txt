@@ -10,3 +10,4 @@ aws_cdk.aws_glue==1.*
 aws_cdk.aws_elasticache==1.*
 aws_cdk.aws_s3_deployment==1.*
 aws_cdk.aws_quicksight==1.*
+aws_cdk.aws_cloudwatch_actions==1.*

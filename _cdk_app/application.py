@@ -637,7 +637,7 @@ class WasteCollectionStack(cdk.Stack):
 
         sns_topic = sns.Topic(self, "WasteCollectionSNSTopic",
             display_name = "Truck overload alarm",
-            topic_name = "WasteCollectionSNS"
+            topic_name = "WasteCollection"
         )
 
 

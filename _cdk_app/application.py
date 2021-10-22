@@ -636,7 +636,7 @@ class WasteCollectionStack(cdk.Stack):
 # |_____/|_| \_|_____/ 
 
         sns_topic = sns.Topic(self, "WasteCollectionSNSTopic",
-            display_name = "Used to alert WasteCollection matters",
+            display_name = "Truck overload alarm",
             topic_name = "WasteCollectionSNS"
         )
 
